@@ -1,0 +1,26 @@
+#top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#bottom{
+    /* align-self: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 87px;
+    width: 87px;
+    align-items: center;
+}
+
+#logo img {
+    height: 168px;
+    width: 168px;
+
+}
+
+
