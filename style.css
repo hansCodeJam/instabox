@@ -17,10 +17,51 @@ img{
     align-items: center;
 }
 
-#logo img {
+#logo {
     height: 168px;
     width: 168px;
 
 }
 
+h1 {
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:300;
+}
 
+#info {
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:300;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#info ul {
+    float: right;
+}
+
+.caption{
+    display: block;
+}
+
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
