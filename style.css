@@ -2,7 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px;
 }
+
 
 #bottom{
     /* align-self: center; */
@@ -74,4 +78,14 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+#heart{
+    width: 20px;
+    height: 20px;
 }
