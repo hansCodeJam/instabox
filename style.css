@@ -69,3 +69,9 @@ img {
 span{
     font-weight: bold;
 }
+
+#something{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
